@@ -77,7 +77,7 @@ class RedditAPIWrapper(BaseModel):
                     break
                 comments += comment.body + "\n-------------------\n"
 
-            return f"Post: {reddit_post.title}\nScore: {reddit_post.score}\nComments: {comments}"
+            return f"The following are top 3 posts and their top 5 comments:\nPost: {reddit_post.title}\nScore: {reddit_post.score}\nComments: {comments}"
         
         except Exception as e:
             print(e)

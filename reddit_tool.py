@@ -10,14 +10,14 @@ from langchain.tools.base import BaseTool
 from reddit_util import RedditAPIWrapper
 
 
-class RedditQueryRun(BaseTool):
+class RedditSearchTool(BaseTool):
     """Tool that adds the capability to search using the Reddit API."""
 
-    name = "Reddit"
+    name = "Intermediate Answer"
     description = (
         "A wrapper around Reddit. "
         "Useful for when you need to answer general questions about "
-        "what people are talking about or what people think about s certain topic. "
+        "what people are talking about or what people think about certain topics. "
         "Input should be up to 3 words. The input should never be more than 3 words."
     )
     api_wrapper: RedditAPIWrapper
