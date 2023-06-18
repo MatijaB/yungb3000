@@ -9,7 +9,7 @@ from langchain.utilities import GoogleSerperAPIWrapper
 from reddit_tool import RedditSearchTool as Reddit
 from reddit_util import RedditAPIWrapper
 
-openai_api_key = "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"
+openai_api_key = "lol"
 
 llm = OpenAI(temperature=0, openai_api_key=openai_api_key)
 tools = [Reddit(
