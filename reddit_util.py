@@ -6,8 +6,8 @@ from pydantic import BaseModel, Extra, root_validator
 REDDIT_MAX_QUERY_LENGTH = 300
 
 # Set up your Reddit API credentials
-client_id = "r5FbQ-U68NbAwFD4Ns15CA"
-client_secret = "JJCcFhT8e-EcCnuLy_GcqRUMpGimtg"
+client_id = "lol"
+client_secret = "lol"
 user_agent = "python:harold:v1.0 (by /u/albagone)"
 
 
